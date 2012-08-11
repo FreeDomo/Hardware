@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 11-8-2012 4:07:51
+
+BeginCmp
+TimeStamp = /502380D9;
+Reference = D1;
+ValeurCmp = 1N4004;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50238E4A;
+Reference = D2;
+ValeurCmp = RED/GRN;
+IdModule  = RV2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5025B904;
+Reference = D3;
+ValeurCmp = 1N5229B;
+IdModule  = DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /502372E2;
+Reference = K1;
+ValeurCmp = PIR;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50236FB1;
+Reference = P1;
+ValeurCmp = MSP430G2231;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5025B8B6;
+Reference = P2;
+ValeurCmp = BATTERY;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5023749A;
+Reference = Q1;
+ValeurCmp = IRF9520N;
+IdModule  = TO220GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /50237AAC;
+Reference = Q2;
+ValeurCmp = BC547B;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /50237C5E;
+Reference = Q3;
+ValeurCmp = BC547B;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /50237A36;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5023798A;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50237CD2;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /502379B5;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50237F59;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50238F36;
+Reference = R6;
+ValeurCmp = 39R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50238F66;
+Reference = R7;
+ValeurCmp = 33R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5023BD85;
+Reference = R8;
+ValeurCmp = 5K6;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5023BD95;
+Reference = R9;
+ValeurCmp = 4K7;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5025BAB2;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5025B4CC;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5023800A;
+Reference = SW1;
+ValeurCmp = JOIN;
+IdModule  = PUSH_BUTT_SHAPE1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5025B4E1;
+Reference = SW2;
+ValeurCmp = RESET;
+IdModule  = PUSH_BUTT_SHAPE1;
+EndCmp
+
+EndListe

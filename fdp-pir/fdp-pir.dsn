@@ -1,0 +1,338 @@
+(pcb "C:\Users\Nils Vogels\Documents\KiCad\FDP-PIR\fdp-pir.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2012-01-19 BZR 3256)-stable")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Voorkant
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Achter
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 930.4 -805.4 2430 -2309)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 8)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component TO92
+      (place Q2 1250 -2075 front 0 (PN BC547B))
+      (place Q3 2150 -2125 front 0 (PN BC547B))
+    )
+    (component "SIL-3"
+      (place K1 1650 -2125 front 0 (PN PIR))
+      (place JP1 2325 -1850 front 90 (PN BATT))
+    )
+    (component PUSH_BUTT_SHAPE1
+      (place SW1 1200 -1075 front 0 (PN JOIN))
+    )
+    (component "DIP-14__300_ELL"
+      (place P1 2225 -1275 front 270 (PN MSP430G2231))
+    )
+    (component D3
+      (place D1 1200 -1475 front 0 (PN 1N4004))
+    )
+    (component TO220GDS
+      (place Q1 1625 -1150 front 270 (PN IRF9520N))
+    )
+    (component R3
+      (place R1 1200 -1600 front 180 (PN 10k))
+      (place R2 1200 -1725 front 0 (PN 10k))
+      (place R3 1200 -1825 front 0 (PN 10k))
+      (place R4 1625 -1025 front 0 (PN 10k))
+      (place R5 1625 -900 front 180 (PN 10k))
+      (place R6 1900 -1450 front 90 (PN 39R))
+      (place R7 1900 -1050 front 90 (PN 33R))
+    )
+    (component RV2
+      (place D2 2000 -1825 front 0 (PN RED/GRN))
+    )
+  )
+  (library
+    (image TO92
+      (outline (path signal 12  -50 -100  100 50))
+      (outline (path signal 12  100 50  100 100))
+      (outline (path signal 12  100 100  50 150))
+      (outline (path signal 12  50 150  -50 150))
+      (outline (path signal 12  -50 150  -150 50))
+      (outline (path signal 12  -150 50  -150 -50))
+      (outline (path signal 12  -150 -50  -100 -100))
+      (outline (path signal 12  -100 -100  -50 -100))
+      (pin Rect[A]Pad_55x55_mil 1 50 50)
+      (pin Round[A]Pad_55_mil 2 -50 50)
+      (pin Round[A]Pad_55_mil 3 -50 -50)
+    )
+    (image "SIL-3"
+      (outline (path signal 12  -150 -50  -150 50))
+      (outline (path signal 12  -150 50  150 50))
+      (outline (path signal 12  150 50  150 -50))
+      (outline (path signal 12  150 -50  -150 -50))
+      (outline (path signal 12  -50 50  -50 -50))
+      (pin Rect[A]Pad_55x55_mil 1 -100 0)
+      (pin Round[A]Pad_55_mil 2 0 0)
+      (pin Round[A]Pad_55_mil 3 100 0)
+    )
+    (image PUSH_BUTT_SHAPE1
+      (outline (path signal 15  252 0  239.7 -77.8  203.9 -148.1  148.1 -203.9  77.8 -239.7
+            0 -252  -77.8 -239.7  -148.1 -203.9  -203.9 -148.1  -239.7 -77.8
+            -252 0  -239.7 77.8  -203.9 148.1  -148.1 203.9  -77.8 239.7
+            0 252  77.8 239.7  148.1 203.9  203.9 148.1  239.7 77.8))
+      (outline (path signal 15  102.4 -230.3  -102.4 -230.3))
+      (pin Round[A]Pad_78.7_mil 1 -98.4 98.4)
+      (pin Round[A]Pad_78.7_mil 2 98.4 98.4)
+      (pin Round[A]Pad_78.7_mil 4 98.4 -98.4)
+      (pin Round[A]Pad_78.7_mil 3 -98.4 -98.4)
+    )
+    (image "DIP-14__300_ELL"
+      (outline (path signal 15  -400 100  400 100))
+      (outline (path signal 15  400 -100  -400 -100))
+      (outline (path signal 15  -400 -100  -400 100))
+      (outline (path signal 15  -400 50  -350 50))
+      (outline (path signal 15  -350 50  -350 -50))
+      (outline (path signal 15  -350 -50  -400 -50))
+      (outline (path signal 15  400 100  400 -100))
+      (pin Rect[A]Pad_62x90_mil 1 -300 -150)
+      (pin Oval[A]Pad_62x90_mil 2 -200 -150)
+      (pin Oval[A]Pad_62x90_mil 3 -100 -150)
+      (pin Oval[A]Pad_62x90_mil 4 0 -150)
+      (pin Oval[A]Pad_62x90_mil 5 100 -150)
+      (pin Oval[A]Pad_62x90_mil 6 200 -150)
+      (pin Oval[A]Pad_62x90_mil 7 300 -150)
+      (pin Oval[A]Pad_62x90_mil 8 300 150)
+      (pin Oval[A]Pad_62x90_mil 9 200 150)
+      (pin Oval[A]Pad_62x90_mil 10 100 150)
+      (pin Oval[A]Pad_62x90_mil 11 0 150)
+      (pin Oval[A]Pad_62x90_mil 12 -100 150)
+      (pin Oval[A]Pad_62x90_mil 13 -200 150)
+      (pin Oval[A]Pad_62x90_mil 14 -300 150)
+    )
+    (image D3
+      (outline (path signal 12  150 0  120 0))
+      (outline (path signal 12  120 0  120 40))
+      (outline (path signal 12  120 40  -120 40))
+      (outline (path signal 12  -120 40  -120 0))
+      (outline (path signal 12  -120 0  -150 0))
+      (outline (path signal 12  -120 0  -120 -40))
+      (outline (path signal 12  -120 -40  120 -40))
+      (outline (path signal 12  120 -40  120 0))
+      (outline (path signal 12  100 40  100 -40))
+      (outline (path signal 12  90 -40  90 40))
+      (pin Rect[A]Pad_55x55_mil 2 150 0)
+      (pin Round[A]Pad_55_mil 1 -150 0)
+    )
+    (image TO220GDS
+      (outline (path signal 12  0 100  200 100))
+      (outline (path signal 12  0 0  200 0))
+      (outline (path signal 12  0 -100  200 -100))
+      (outline (path signal 12  200 200  800 200))
+      (outline (path signal 12  800 200  800 -200))
+      (outline (path signal 12  800 -200  200 -200))
+      (outline (path signal 12  200 -200  200 200))
+      (outline (path signal 12  500 -200  500 200))
+      (pin Rect[A]Pad_350x350_mil 4 650 0)
+      (pin Round[A]Pad_70_mil G 0 100)
+      (pin Round[A]Pad_70_mil D 0 0)
+      (pin Rect[A]Pad_70x70_mil S 0 -100)
+    )
+    (image R3
+      (outline (path signal 8  -150 0  -130 0))
+      (outline (path signal 8  150 0  130 0))
+      (outline (path signal 8  130 0  130 40))
+      (outline (path signal 8  130 40  -130 40))
+      (outline (path signal 8  -130 40  -130 -40))
+      (outline (path signal 8  -130 -40  130 -40))
+      (outline (path signal 8  130 -40  130 0))
+      (outline (path signal 8  -130 20  -110 40))
+      (pin Round[A]Pad_55_mil 1 -150 0)
+      (pin Round[A]Pad_55_mil 2 150 0)
+    )
+    (image RV2
+      (outline (path signal 8  140 -15  133.1 -58.2  113.2 -97.2  82.2 -128.2  43.2 -148.1
+            0 -155  -43.2 -148.1  -82.2 -128.2  -113.2 -97.2  -133.1 -58.2
+            -140 -15  -133.1 28.2  -113.2 67.2  -82.2 98.2  -43.2 118.1
+            0 125  43.2 118.1  82.2 98.2  113.2 67.2  133.1 28.2))
+      (pin Round[A]Pad_60_mil 1 -100 -50)
+      (pin Round[A]Pad_60_mil 2 0 50)
+      (pin Round[A]Pad_60_mil 3 100 -50)
+    )
+    (padstack Round[A]Pad_55_mil
+      (shape (circle Voorkant 55))
+      (shape (circle Achter 55))
+      (attach off)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Voorkant 60))
+      (shape (circle Achter 60))
+      (attach off)
+    )
+    (padstack Round[A]Pad_70_mil
+      (shape (circle Voorkant 70))
+      (shape (circle Achter 70))
+      (attach off)
+    )
+    (padstack Round[A]Pad_78.7_mil
+      (shape (circle Voorkant 78.7))
+      (shape (circle Achter 78.7))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_62x90_mil
+      (shape (path Voorkant 62  0 -14  0 14))
+      (shape (path Achter 62  0 -14  0 14))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_350x350_mil
+      (shape (rect Voorkant -175 -175 175 175))
+      (shape (rect Achter -175 -175 175 175))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_55x55_mil
+      (shape (rect Voorkant -27.5 -27.5 27.5 27.5))
+      (shape (rect Achter -27.5 -27.5 27.5 27.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_62x90_mil
+      (shape (rect Voorkant -31 -45 31 45))
+      (shape (rect Achter -31 -45 31 45))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_70x70_mil
+      (shape (rect Voorkant -35 -35 35 35))
+      (shape (rect Achter -35 -35 35 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Voorkant 35))
+      (shape (circle Achter 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Voorkant 35))
+      (shape (circle Achter 35))
+      (attach off)
+    )
+  )
+  (network
+    (net +3.3V
+      (pins P1-1 Q1-D)
+    )
+    (net +BATT
+      (pins K1-1 Q1-S R1-1 JP1-1)
+    )
+    (net GND
+      (pins Q2-1 Q3-1 K1-3 SW1-2 P1-7 R4-2 R5-2 JP1-3 D2-2)
+    )
+    (net "N-000001"
+      (pins Q3-2 R3-2)
+    )
+    (net "N-000002"
+      (pins Q2-2 R2-2)
+    )
+    (net "N-000003"
+      (pins P1-4 R6-2)
+    )
+    (net "N-000004"
+      (pins R6-1 D2-3)
+    )
+    (net "N-000005"
+      (pins R7-1 D2-1)
+    )
+    (net "N-000012"
+      (pins P1-5 R7-2)
+    )
+    (net "N-000013"
+      (pins P1-3 JP1-2)
+    )
+    (net "N-000015"
+      (pins Q2-3 Q3-3 P1-12 D1-1 Q1-G R1-2)
+    )
+    (net "N-000017"
+      (pins P1-2 R2-1 R4-1)
+    )
+    (net "N-000018"
+      (pins SW1-1 D1-2)
+    )
+    (net "N-000019"
+      (pins K1-2 P1-13 R3-1 R5-1)
+    )
+    (class kicad_default "" +3.3V +BATT GND "N-000001" "N-000002" "N-000003"
+      "N-000004" "N-000005" "N-000012" "N-000013" "N-000015" "N-000017" "N-000018"
+      "N-000019"
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path Voorkant 8  1508.2 -2083.2  1550 -2083.2)(net +BATT)(type protect))
+    (wire (path Voorkant 8  1413.8 -1988.8  1508.2 -2083.2)(net +BATT)(type protect))
+    (wire (path Voorkant 8  1413.8 -1600  1413.8 -1988.8)(net +BATT)(type protect))
+    (wire (path Voorkant 8  1350 -1600  1413.8 -1600)(net +BATT)(type protect))
+    (wire (path Voorkant 8  1550 -2125  1550 -2083.2)(net +BATT)(type protect))
+    (wire (path Voorkant 8  1525 -1488.8  1413.8 -1600)(net +BATT)(type protect))
+    (wire (path Voorkant 8  1525 -1150  1525 -1488.8)(net +BATT)(type protect))
+    (wire (path Achter 8  2200 -2075  2158.2 -2075)(net GND)(type protect))
+    (wire (path Achter 8  1706.3 -2168.7  1485.5 -2168.7)(net GND)(type protect))
+    (wire (path Achter 8  1775 -1025  1650 -900)(net GND)(type protect))
+    (wire (path Achter 8  1375 -900  1298.4 -976.6)(net GND)(type protect))
+    (wire (path Achter 8  1650 -900  1475 -900)(net GND)(type protect))
+    (wire (path Achter 8  2158.2 -2075  2158.2 -2116.8)(net GND)(type protect))
+    (wire (path Achter 8  1300 -2025  1341.8 -2025)(net GND)(type protect))
+    (wire (path Achter 8  2150 -2125  1750 -2125)(net GND)(type protect))
+    (wire (path Achter 8  1485.5 -2168.7  1341.8 -2025)(net GND)(type protect))
+    (wire (path Achter 8  2158.2 -2116.8  2150 -2125)(net GND)(type protect))
+    (wire (path Achter 8  1475 -900  1375 -900)(net GND)(type protect))
+    (wire (path Achter 8  1750 -2125  1706.3 -2168.7)(net GND)(type protect))
+    (wire (path Achter 8  2100 -2075  2081.7 -2056.7  1498.5 -2056.7  1350 -1908.2
+            1350 -1825)(net "N-000001")(type protect))
+    (wire (path Voorkant 8  1200 -1875  1200 -2025)(net "N-000002")(type protect))
+    (wire (path Voorkant 8  1350 -1725  1200 -1875)(net "N-000002")(type protect))
+    (wire (path Achter 8  1105.2 -1530.2  1415.1 -1530.2)(net "N-000015")(type protect))
+    (wire (path Voorkant 8  1050 -1600  985.8 -1664.2)(net "N-000015")(type protect))
+    (wire (path Achter 8  1050 -1475  1105.2 -1530.2)(net "N-000015")(type protect))
+    (wire (path Voorkant 8  985.8 -1910.8  1200 -2125)(net "N-000015")(type protect))
+    (wire (path Achter 8  1105.2 -1544.8  1105.2 -1530.2)(net "N-000015")(type protect))
+    (wire (path Achter 8  1050 -1600  1105.2 -1544.8)(net "N-000015")(type protect))
+    (wire (path Voorkant 8  1250 -2175  1200 -2125)(net "N-000015")(type protect))
+    (wire (path Achter 8  1725 -1220.3  1725 -1150)(net "N-000015")(type protect))
+    (wire (path Achter 8  1415.1 -1530.2  1725 -1220.3)(net "N-000015")(type protect))
+    (wire (path Voorkant 8  985.8 -1664.2  985.8 -1910.8)(net "N-000015")(type protect))
+    (wire (path Voorkant 8  2100 -2175  1250 -2175)(net "N-000015")(type protect))
+    (wire (path Voorkant 8  1050 -1725  1257 -1518  1257 -1298.2  1475 -1080.2  1475 -1025)(net "N-000017")(type protect))
+    (wire (path Achter 8  1200.1 -1283.3  1200.1 -1075.1  1101.6 -976.6)(net "N-000018")(type protect))
+    (wire (path Achter 8  1350 -1433.2  1200.1 -1283.3)(net "N-000018")(type protect))
+    (wire (path Achter 8  1350 -1475  1350 -1433.2)(net "N-000018")(type protect))
+    (wire (path Achter 8  1179.8 -1825  1050 -1825)(net "N-000019")(type protect))
+    (wire (path Achter 8  1437.9 -2083.1  1179.8 -1825)(net "N-000019")(type protect))
+    (wire (path Achter 8  1608.1 -2083.1  1437.9 -2083.1)(net "N-000019")(type protect))
+    (wire (path Achter 8  1650 -2125  1608.1 -2083.1)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1775 -900  1731.6 -943.4)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1826.4 -1989.4  1690.8 -2125)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1826.4 -1584.8  1826.4 -1989.4)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1774.4 -1532.8  1826.4 -1584.8)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1774.4 -1107.5  1774.4 -1532.8)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1731.6 -1064.7  1774.4 -1107.5)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1690.8 -2125  1650 -2125)(net "N-000019")(type protect))
+    (wire (path Voorkant 8  1731.6 -943.4  1731.6 -1064.7)(net "N-000019")(type protect))
+  )
+)

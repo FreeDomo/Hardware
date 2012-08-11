@@ -1,0 +1,41 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 9-8-2012 12:24:39
+
+#Cmp ( volgorde = Referentie )
+| D1         1N4004      
+| D2         RED/GRN     
+| JP1        BATT        
+| K1         PIR         
+| P1         MSP430G2231 
+| Q1         IRF9520N    
+| Q2         BC547B      
+| Q3         BC547B      
+| R1         10k         
+| R2         10k         
+| R3         10k         
+| R4         10k         
+| R5         10k         
+| R6         39R         
+| R7         33R         
+| SW1        JOIN        
+#Einde Cmp
+
+#Cmp ( volgorde = Waarde )
+| 10k          R1        
+| 10k          R2        
+| 10k          R3        
+| 10k          R4        
+| 10k          R5        
+| 1N4004       D1        
+| 33R          R7        
+| 39R          R6        
+| BATT         JP1       
+| BC547B       Q2        
+| BC547B       Q3        
+| IRF9520N     Q1        
+| JOIN         SW1       
+| MSP430G2231  P1        
+| PIR          K1        
+| RED/GRN      D2        
+#Einde Cmp
+
+#Einde Lijst

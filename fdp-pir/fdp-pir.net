@@ -1,0 +1,198 @@
+# EESchema Netlist Version 1.1 created  11-8-2012 4:07:51
+(
+ ( /502380D9 D3 D1 1N4004
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+ )
+ ( /50238E4A RV2 D2 RED/GRN
+  ( 1 N-000005 )
+  ( 2 GND )
+  ( 3 N-000013 )
+ )
+ ( /5025B904 DO-41 D3 1N5229B
+  ( 1 N-000020 )
+  ( 2 GND )
+ )
+ ( /502372E2 SIL-3 K1 PIR
+  ( 1 +BATT )
+  ( 2 /PIR_SIGNAL )
+  ( 3 GND )
+ )
+ ( /50236FB1 DIP-14__300_ELL P1 MSP430G2231
+  ( 1 +3.3V )
+  ( 2 N-000019 )
+  ( 3 N-000020 )
+  ( 4 N-000006 )
+  ( 5 N-000004 )
+  ( 6 ? )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 N-000021 )
+  ( 12 N-000018 )
+  ( 13 /PIR_SIGNAL )
+  ( 14 ? )
+ )
+ ( /5025B8B6 SIL-2 P2 BATTERY
+  ( 1 GND )
+  ( 2 +BATT )
+ )
+ ( /5023749A TO220GDS Q1 IRF9520N
+  ( D N-000002 )
+  ( G N-000018 )
+  ( S +BATT )
+ )
+ ( /50237AAC TO92 Q2 BC547B
+  ( 1 GND )
+  ( 2 N-000016 )
+  ( 3 N-000018 )
+ )
+ ( /50237C5E TO92 Q3 BC547B
+  ( 1 GND )
+  ( 2 N-000014 )
+  ( 3 N-000018 )
+ )
+ ( /50237A36 R3 R1 10k
+  ( 1 +BATT )
+  ( 2 N-000018 )
+ )
+ ( /5023798A R3 R2 10k
+  ( 1 N-000019 )
+  ( 2 N-000016 )
+ )
+ ( /50237CD2 R3 R3 10k
+  ( 1 /PIR_SIGNAL )
+  ( 2 N-000014 )
+ )
+ ( /502379B5 R3 R4 10k
+  ( 1 N-000019 )
+  ( 2 GND )
+ )
+ ( /50237F59 R3 R5 10k
+  ( 1 /PIR_SIGNAL )
+  ( 2 GND )
+ )
+ ( /50238F36 R3 R6 39R
+  ( 1 N-000013 )
+  ( 2 N-000006 )
+ )
+ ( /50238F66 R3 R7 33R
+  ( 1 N-000005 )
+  ( 2 N-000004 )
+ )
+ ( /5023BD85 R3 R8 5K6
+  ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /5023BD95 R3 R9 4K7
+  ( 1 +3.3V )
+  ( 2 N-000002 )
+ )
+ ( /5025BAB2 R3 R10 10k
+  ( 1 +BATT )
+  ( 2 N-000020 )
+ )
+ ( /5025B4CC R3 R11 10k
+  ( 1 +BATT )
+  ( 2 N-000021 )
+ )
+ ( /5023800A PUSH_BUTT_SHAPE1 SW1 JOIN
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /5025B4E1 PUSH_BUTT_SHAPE1 SW2 RESET
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
