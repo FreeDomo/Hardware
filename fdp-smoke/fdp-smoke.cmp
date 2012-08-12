@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 10-8-2012 17:46:50
+
+BeginCmp
+TimeStamp = /50252897;
+Reference = U1;
+ValeurCmp = RE46C190;
+IdModule  = SOIC16;
+EndCmp
+
+EndListe
