@@ -1,0 +1,1362 @@
+
+(session "fdp-powerbar.ses"
+  (base_design "fdp-powerbar.dsn")
+  (placement
+    (resolution mil 10)
+    (component TO220_VERT
+      (place U6 96750 -23000 front 90)
+      (place U7 88250 -23000 front 90)
+      (place U8 79750 -23000 front 90)
+      (place U21 37250 -23000 front 90)
+      (place U20 45750 -23000 front 90)
+      (place U19 54250 -23000 front 90)
+      (place U18 62750 -23000 front 90)
+      (place U9 71250 -23000 front 90)
+    )
+    (component R3
+      (place R24 37250 -26000 front 0)
+      (place R29 62750 -32500 front 180)
+      (place R23 45750 -26000 front 0)
+      (place R22 54250 -26000 front 0)
+      (place R21 62750 -26000 front 0)
+      (place R20 37250 -31500 front 180)
+      (place R19 45750 -31500 front 180)
+      (place R18 54250 -31500 front 180)
+      (place R17 62750 -31500 front 180)
+      (place R25 62750 -24750 front 0)
+      (place R26 54250 -24750 front 0)
+      (place R27 45750 -24750 front 0)
+      (place R28 37250 -24750 front 0)
+      (place R15 79750 -32500 front 180)
+      (place R30 54250 -32500 front 180)
+      (place R31 45750 -32500 front 180)
+      (place R32 37250 -32500 front 180)
+      (place R16 71250 -32500 front 180)
+      (place R1 96750 -31500 front 180)
+      (place R2 88500 -31500 front 180)
+      (place R3 79750 -31500 front 180)
+      (place R4 71250 -31500 front 180)
+      (place R5 96750 -24750 front 0)
+      (place R6 88250 -24750 front 0)
+      (place R7 79750 -24750 front 0)
+      (place R8 71250 -24750 front 0)
+      (place R9 96750 -26000 front 0)
+      (place R10 88250 -26000 front 0)
+      (place R11 79750 -26000 front 0)
+      (place R12 71250 -26000 front 0)
+      (place R13 96750 -32500 front 180)
+      (place R14 88500 -32500 front 180)
+    )
+    (component "FUSE5-20"
+      (place F1 106000 -24750 front 180)
+    )
+    (component "DIP-6__300"
+      (place U5 71250 -28750 front 0)
+      (place U17 37250 -28750 front 0)
+      (place U16 45750 -28750 front 0)
+      (place U15 54250 -28750 front 0)
+      (place U14 62750 -28750 front 0)
+      (place U2 96750 -28750 front 0)
+      (place U3 88250 -28750 front 0)
+      (place U4 79750 -28750 front 0)
+    )
+    (component "DIP-16__300"
+      (place U1 102250 -31500 front 270)
+    )
+    (component C1
+      (place C8 34500 -28750 front 90)
+      (place C7 43000 -28750 front 90)
+      (place C6 51500 -28750 front 90)
+      (place C5 60000 -28750 front 90)
+      (place C4 68500 -28750 front 90)
+      (place C3 77000 -28750 front 90)
+      (place C2 85500 -28750 front 90)
+      (place C1 94000 -28750 front 90)
+    )
+    (component bornier2
+      (place P1 109500 -28500 front 90)
+    )
+    (component "SIL-2"
+      (place P2 100250 -23000 front 0)
+      (place P3 91750 -23000 front 0)
+      (place P4 83250 -23000 front 0)
+      (place P5 74750 -23000 front 0)
+      (place P6 66200 -23000 front 0)
+      (place P7 57800 -23000 front 0)
+      (place P8 49200 -23000 front 0)
+      (place P9 40800 -23000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2012-01-19 BZR 3256)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Voorkant 350 0 0)
+        )
+        (shape
+          (circle Achter 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Voorkant 350 0 0)
+        )
+        (shape
+          (circle Achter 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net /NUL
+        (wire
+          (path Voorkant 80
+            92250 -23000
+            91756 -22506
+            84244 -22506
+            83750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            75250 -23000
+            75758 -22492
+            83242 -22492
+            83750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            41300 -23000
+            41794 -22506
+            49206 -22506
+            49700 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            92250 -23000
+            92744 -22506
+            100256 -22506
+            100750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            49700 -23000
+            50194 -22506
+            57806 -22506
+            58300 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            66700 -23000
+            67194 -22506
+            74756 -22506
+            75250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            66700 -23000
+            66123 -22423
+            58877 -22423
+            58300 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            109500 -29500
+            109500 -28473
+            104027 -23000
+            100750 -23000
+          )
+          (type protect)
+        )
+      )
+      (net +5V
+        (wire
+          (path Achter 80
+            72750 -31500
+            74169 -32919
+            79831 -32919
+            81250 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            90427 -32900
+            90427 -31927
+            90000 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            72750 -31500
+            71320 -32930
+            64957 -32930
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            47957 -32930
+            40180 -32930
+            38750 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            81250 -31500
+            82672 -32922
+            90405 -32922
+            90427 -32900
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            64957 -32930
+            64957 -32207
+            64250 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            64957 -32930
+            57180 -32930
+            55750 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            55750 -31500
+            54320 -32930
+            47957 -32930
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            90427 -32900
+            90452 -32925
+            96825 -32925
+            98250 -31500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            47957 -32930
+            47957 -32207
+            47250 -31500
+          )
+          (type protect)
+        )
+      )
+      (net GND
+        (wire
+          (path Achter 80
+            103750 -31000
+            101331 -33419
+            101331 -34419
+            100750 -35000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000001"
+        (wire
+          (path Achter 80
+            36250 -27250
+            36250 -25250
+            35750 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Voorkant 80
+            99750 -23000
+            99332 -23000
+            99086 -23246
+            97750 -23246
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            97750 -23246
+            97750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            98250 -24750
+            98250 -23993
+            97750 -23493
+            97750 -23246
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            94000 -28250
+            97500 -24750
+            98250 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Voorkant 80
+            89750 -24750
+            89250 -24250
+            89250 -23625
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            85500 -28250
+            89000 -24750
+            89750 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            91250 -23000
+            90832 -23000
+            90207 -23625
+            89250 -23625
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            89250 -23625
+            89250 -23000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000009"
+        (wire
+          (path Voorkant 80
+            54000 -26000
+            52750 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            55250 -27250
+            54000 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            54250 -23000
+            54250 -25750
+            54000 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000010"
+        (wire
+          (path Achter 80
+            57300 -23000
+            56882 -23000
+            56882 -23418
+            56029 -24271
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            56029 -24271
+            56581 -24824
+            56581 -25169
+            55750 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            55250 -23000
+            55250 -23493
+            56029 -24271
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            51500 -28250
+            53603 -28250
+            53816 -28037
+            53816 -26853
+            54669 -26000
+            55750 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000012"
+        (wire
+          (path Voorkant 80
+            45500 -26000
+            44250 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            45750 -23000
+            45750 -25750
+            45500 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            46750 -27250
+            45500 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000016"
+        (wire
+          (path Achter 80
+            44750 -27250
+            44750 -25250
+            44250 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000017"
+        (wire
+          (path Achter 80
+            44750 -30250
+            44750 -30668
+            44250 -31168
+            44250 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000018"
+        (wire
+          (path Achter 80
+            36250 -30250
+            36250 -30668
+            35750 -31168
+            35750 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000024"
+        (wire
+          (path Achter 80
+            34500 -29250
+            34500 -31250
+            35750 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000025"
+        (wire
+          (path Achter 80
+            43000 -29250
+            43000 -31250
+            44250 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000036"
+        (wire
+          (path Achter 80
+            85500 -29250
+            85500 -31000
+            87000 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000037"
+        (wire
+          (path Achter 80
+            87250 -30250
+            87250 -30668
+            87000 -30918
+            87000 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000038"
+        (wire
+          (path Voorkant 80
+            87250 -27250
+            86750 -26750
+            86750 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000039"
+        (wire
+          (path Voorkant 80
+            79750 -23000
+            78250 -24500
+            78250 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            80750 -27250
+            78250 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000040"
+        (wire
+          (path Voorkant 80
+            44750 -23000
+            43000 -24750
+            38750 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            81680 -25079
+            85171 -25079
+            87250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            81680 -25079
+            81680 -24588
+            81423 -24331
+            80081 -24331
+            78750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            47250 -32500
+            47669 -32919
+            55331 -32919
+            55750 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            73180 -25079
+            76671 -25079
+            78750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            73180 -25079
+            73180 -24588
+            72923 -24331
+            71581 -24331
+            70250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            72750 -26000
+            73180 -25570
+            73180 -25079
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            81250 -26000
+            81680 -25570
+            81680 -25079
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            38750 -24750
+            38000 -24750
+            36250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            38750 -24750
+            38311 -25189
+            38311 -26316
+            38811 -26816
+            38811 -30486
+            38169 -31128
+            38169 -31919
+            38750 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            47250 -24750
+            51500 -24750
+            53250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            55750 -24750
+            60000 -24750
+            61750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            90181 -25549
+            90181 -24352
+            90159 -24330
+            88580 -24330
+            87250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            90181 -25549
+            93201 -25549
+            95750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            89750 -26000
+            90181 -25569
+            90181 -25549
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            64250 -24750
+            68500 -24750
+            70250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            64250 -24750
+            63500 -24750
+            61750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            81250 -32500
+            80831 -32919
+            73169 -32919
+            72750 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            89750 -26000
+            88750 -27000
+            88750 -28255
+            87684 -29321
+            87684 -31549
+            88635 -32500
+            90000 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            47250 -24750
+            46500 -24750
+            44750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            72750 -32500
+            72331 -32919
+            64669 -32919
+            64250 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            55750 -32500
+            56169 -32919
+            63831 -32919
+            64250 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            55750 -24750
+            55000 -24750
+            53250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            104000 -24750
+            102000 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            102000 -24750
+            99500 -24750
+            98500 -25750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            98500 -25750
+            98250 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            90000 -32919
+            90000 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            81250 -32500
+            81669 -32919
+            90000 -32919
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            90000 -32919
+            97831 -32919
+            98250 -32500
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            98500 -25750
+            95750 -23000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000041"
+        (wire
+          (path Voorkant 80
+            80750 -23625
+            81707 -23625
+            82332 -23000
+            82750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            80750 -23625
+            80750 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            77000 -28250
+            80500 -24750
+            81250 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            81250 -24750
+            80750 -24250
+            80750 -23625
+          )
+          (type protect)
+        )
+      )
+      (net "N-000044"
+        (wire
+          (path Achter 80
+            77000 -29250
+            77000 -31250
+            78250 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000046"
+        (wire
+          (path Voorkant 80
+            109500 -24750
+            110000 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            108000 -24750
+            109500 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            109500 -27500
+            109500 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000047"
+        (wire
+          (path Achter 80
+            94000 -29250
+            94000 -31250
+            95250 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000048"
+        (wire
+          (path Voorkant 80
+            95750 -27250
+            95250 -26750
+            95250 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000050"
+        (wire
+          (path Achter 80
+            95750 -30250
+            95750 -30668
+            95250 -31168
+            95250 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000051"
+        (wire
+          (path Voorkant 80
+            97750 -27250
+            95250 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            95250 -24750
+            96750 -23250
+            96750 -23000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000054"
+        (wire
+          (path Achter 80
+            60000 -29250
+            60000 -31250
+            61250 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000055"
+        (wire
+          (path Achter 80
+            61750 -27250
+            61750 -25250
+            61250 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000056"
+        (wire
+          (path Achter 80
+            64479 -24221
+            65081 -24824
+            65081 -25169
+            64250 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            60000 -28250
+            62103 -28250
+            62316 -28037
+            62316 -26853
+            63169 -26000
+            64250 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            65700 -23000
+            65282 -23000
+            65282 -23418
+            64479 -24221
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            63750 -23000
+            63750 -23493
+            64479 -24221
+          )
+          (type protect)
+        )
+      )
+      (net "N-000057"
+        (wire
+          (path Achter 80
+            61750 -30250
+            61750 -30668
+            61250 -31168
+            61250 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000058"
+        (wire
+          (path Achter 80
+            53250 -30250
+            53250 -30668
+            52750 -31168
+            52750 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000059"
+        (wire
+          (path Achter 80
+            51500 -29250
+            51500 -31250
+            52750 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000060"
+        (wire
+          (path Achter 80
+            53250 -27250
+            53250 -25250
+            52750 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000062"
+        (wire
+          (path Voorkant 80
+            78750 -27250
+            78250 -26750
+            78250 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000063"
+        (wire
+          (path Achter 80
+            78750 -30250
+            78750 -30668
+            78250 -31168
+            78250 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000064"
+        (wire
+          (path Voorkant 80
+            71250 -23000
+            69750 -24500
+            69750 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            72250 -27250
+            69750 -24750
+          )
+          (type protect)
+        )
+      )
+      (net "N-000065"
+        (wire
+          (path Voorkant 80
+            72250 -23625
+            73207 -23625
+            73832 -23000
+            74250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            72250 -23625
+            72250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            68500 -28250
+            72000 -24750
+            72750 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            72750 -24750
+            72250 -24250
+            72250 -23625
+          )
+          (type protect)
+        )
+      )
+      (net "N-000068"
+        (wire
+          (path Achter 80
+            68500 -29250
+            68500 -31250
+            69750 -32500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000069"
+        (wire
+          (path Voorkant 80
+            70250 -27250
+            69750 -26750
+            69750 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000070"
+        (wire
+          (path Achter 80
+            70250 -30250
+            70250 -30668
+            69750 -31168
+            69750 -31500
+          )
+          (type protect)
+        )
+      )
+      (net "N-000071"
+        (wire
+          (path Voorkant 80
+            63750 -27250
+            62500 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            62750 -23000
+            62750 -25750
+            62500 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            62500 -26000
+            61250 -26000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000072"
+        (wire
+          (path Voorkant 80
+            35750 -26000
+            37000 -26000
+            38250 -27250
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            38250 -27250
+            37250 -26250
+            37250 -23000
+          )
+          (type protect)
+        )
+      )
+      (net "N-000074"
+        (wire
+          (path Achter 80
+            43000 -28250
+            45103 -28250
+            45316 -28037
+            45316 -26853
+            46169 -26000
+            47250 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            48700 -23000
+            48282 -23000
+            48282 -23418
+            47479 -24221
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            47479 -24221
+            48081 -24824
+            48081 -25169
+            47250 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            46750 -23000
+            46750 -23493
+            47479 -24221
+          )
+          (type protect)
+        )
+      )
+      (net "N-000075"
+        (wire
+          (path Achter 80
+            40300 -23000
+            39882 -23000
+            39882 -23418
+            39029 -24271
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            39029 -24271
+            38250 -23493
+            38250 -23000
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            34500 -28250
+            37875 -28250
+            38750 -27375
+            38750 -26000
+          )
+          (type protect)
+        )
+        (wire
+          (path Achter 80
+            38750 -26000
+            39535 -25215
+            39535 -24778
+            39029 -24271
+          )
+          (type protect)
+        )
+      )
+      (net "N-000076"
+        (wire
+          (path Voorkant 80
+            89250 -27250
+            86750 -24750
+          )
+          (type protect)
+        )
+        (wire
+          (path Voorkant 80
+            88250 -23000
+            86750 -24500
+            86750 -24750
+          )
+          (type protect)
+        )
+      )
+      (net SIG1
+        (wire
+          (path Voorkant 80
+            103750 -29000
+            103250 -29500
+            97908 -29500
+            97158 -30250
+            96750 -30250
+          )
+          (type protect)
+        )
+      )
+      (net SIG2
+        (wire
+          (path Achter 80
+            100750 -28000
+            100332 -28000
+            99582 -28750
+            89750 -28750
+            88250 -30250
+          )
+          (type protect)
+        )
+      )
+      (net SIG3
+        (wire
+          (path Voorkant 80
+            100750 -29000
+            98116 -29000
+            97420 -29696
+            80304 -29696
+            79750 -30250
+          )
+          (type protect)
+        )
+      )
+      (net SIG4
+        (wire
+          (path Voorkant 80
+            100750 -30000
+            100038 -30712
+            71712 -30712
+            71250 -30250
+          )
+          (type protect)
+        )
+      )
+      (net SIG5
+        (wire
+          (path Voorkant 80
+            100750 -31000
+            100646 -30896
+            63396 -30896
+            62750 -30250
+          )
+          (type protect)
+        )
+      )
+      (net SIG6
+        (wire
+          (path Voorkant 80
+            54250 -30250
+            55080 -31080
+            99830 -31080
+            100750 -32000
+          )
+          (type protect)
+        )
+      )
+      (net SIG7
+        (wire
+          (path Voorkant 80
+            45750 -30250
+            46452 -30952
+            54149 -30952
+            55197 -32000
+            99750 -32000
+            100750 -33000
+          )
+          (type protect)
+        )
+      )
+      (net SIG8
+        (wire
+          (path Voorkant 80
+            100750 -34000
+            42320 -34000
+            39243 -30923
+            37923 -30923
+            37250 -30250
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,629 @@
+# EESchema Netlist Version 1.1 created  12-8-2012 4:27:48
+(
+ ( /502701F6 C1 C1 10nF
+  ( 1 N-000047 )
+  ( 2 N-000006 )
+ )
+ ( /50270206 C1 C2 10nF
+  ( 1 N-000036 )
+  ( 2 N-000007 )
+ )
+ ( /5027020C C1 C3 10nF
+  ( 1 N-000044 )
+  ( 2 N-000041 )
+ )
+ ( /50270212 C1 C4 10nF
+  ( 1 N-000068 )
+  ( 2 N-000065 )
+ )
+ ( /50270222 C1 C5 10nF
+  ( 1 N-000054 )
+  ( 2 N-000056 )
+ )
+ ( /5027021C C1 C6 10nF
+  ( 1 N-000059 )
+  ( 2 N-000010 )
+ )
+ ( /5027021A C1 C7 10nF
+  ( 1 N-000025 )
+  ( 2 N-000074 )
+ )
+ ( /50270215 C1 C8 10nF
+  ( 1 N-000024 )
+  ( 2 N-000075 )
+ )
+ ( /5026F5F5 FUSE5-20 F1 240V/16A
+  ( 1 N-000046 )
+  ( 2 N-000040 )
+ )
+ ( /5026FFFA bornier2 P1 MAINS
+  ( 1 /NUL )
+  ( 2 N-000046 )
+ )
+ ( /50271325 SIL-2 P2 LOAD1
+  ( 1 N-000006 )
+  ( 2 /NUL )
+ )
+ ( /50271330 SIL-2 P3 LOAD2
+  ( 1 N-000007 )
+  ( 2 /NUL )
+ )
+ ( /50271334 SIL-2 P4 LOAD3
+  ( 1 N-000041 )
+  ( 2 /NUL )
+ )
+ ( /50271339 SIL-2 P5 LOAD4
+  ( 1 N-000065 )
+  ( 2 /NUL )
+ )
+ ( /50271341 SIL-2 P6 LOAD5
+  ( 1 N-000056 )
+  ( 2 /NUL )
+ )
+ ( /50271344 SIL-2 P7 LOAD6
+  ( 1 N-000010 )
+  ( 2 /NUL )
+ )
+ ( /50271348 SIL-2 P8 LOAD6
+  ( 1 N-000074 )
+  ( 2 /NUL )
+ )
+ ( /50271352 SIL-2 P9 LOAD8
+  ( 1 N-000075 )
+  ( 2 /NUL )
+ )
+ ( /5026F765 R3 R1 330R
+  ( 1 +5V )
+  ( 2 N-000050 )
+ )
+ ( /5026FD64 R3 R2 330R
+  ( 1 +5V )
+  ( 2 N-000037 )
+ )
+ ( /5026FD90 R3 R3 330R
+  ( 1 +5V )
+  ( 2 N-000063 )
+ )
+ ( /5026FDB0 R3 R4 330R
+  ( 1 +5V )
+  ( 2 N-000070 )
+ )
+ ( /5026F7FE R3 R5 330R
+  ( 1 N-000051 )
+  ( 2 N-000006 )
+ )
+ ( /5026FD60 R3 R6 330R
+  ( 1 N-000076 )
+  ( 2 N-000007 )
+ )
+ ( /5026FD8C R3 R7 330R
+  ( 1 N-000039 )
+  ( 2 N-000041 )
+ )
+ ( /5026FDAC R3 R8 330R
+  ( 1 N-000064 )
+  ( 2 N-000065 )
+ )
+ ( /5026F7D3 R3 R9 360R
+  ( 1 N-000048 )
+  ( 2 N-000040 )
+ )
+ ( /5026FD62 R3 R10 360R
+  ( 1 N-000038 )
+  ( 2 N-000040 )
+ )
+ ( /5026FD8E R3 R11 360R
+  ( 1 N-000062 )
+  ( 2 N-000040 )
+ )
+ ( /5026FDAE R3 R12 360R
+  ( 1 N-000069 )
+  ( 2 N-000040 )
+ )
+ ( /5026F7DE R3 R13 360R
+  ( 1 N-000040 )
+  ( 2 N-000047 )
+ )
+ ( /5026FD61 R3 R14 360R
+  ( 1 N-000040 )
+  ( 2 N-000036 )
+ )
+ ( /5026FD8D R3 R15 360R
+  ( 1 N-000040 )
+  ( 2 N-000044 )
+ )
+ ( /5026FDAD R3 R16 360R
+  ( 1 N-000040 )
+  ( 2 N-000068 )
+ )
+ ( /5026FE8F R3 R17 330R
+  ( 1 +5V )
+  ( 2 N-000057 )
+ )
+ ( /5026FEAD R3 R18 330R
+  ( 1 +5V )
+  ( 2 N-000058 )
+ )
+ ( /5026FECB R3 R19 330R
+  ( 1 +5V )
+  ( 2 N-000017 )
+ )
+ ( /5026FED2 R3 R20 330R
+  ( 1 +5V )
+  ( 2 N-000018 )
+ )
+ ( /5026FE8B R3 R21 330R
+  ( 1 N-000071 )
+  ( 2 N-000056 )
+ )
+ ( /5026FEB0 R3 R22 330R
+  ( 1 N-000009 )
+  ( 2 N-000010 )
+ )
+ ( /5026FEC8 R3 R23 330R
+  ( 1 N-000012 )
+  ( 2 N-000074 )
+ )
+ ( /5026FED5 R3 R24 330R
+  ( 1 N-000072 )
+  ( 2 N-000075 )
+ )
+ ( /5026FE8D R3 R25 360R
+  ( 1 N-000055 )
+  ( 2 N-000040 )
+ )
+ ( /5026FEAE R3 R26 360R
+  ( 1 N-000060 )
+  ( 2 N-000040 )
+ )
+ ( /5026FECA R3 R27 360R
+  ( 1 N-000016 )
+  ( 2 N-000040 )
+ )
+ ( /5026FED3 R3 R28 360R
+  ( 1 N-000001 )
+  ( 2 N-000040 )
+ )
+ ( /5026FE8C R3 R29 360R
+  ( 1 N-000040 )
+  ( 2 N-000054 )
+ )
+ ( /5026FEAF R3 R30 360R
+  ( 1 N-000040 )
+  ( 2 N-000059 )
+ )
+ ( /5026FEC9 R3 R31 360R
+  ( 1 N-000040 )
+  ( 2 N-000025 )
+ )
+ ( /5026FED4 R3 R32 360R
+  ( 1 N-000040 )
+  ( 2 N-000024 )
+ )
+ ( /50270459 DIP-16__300 U1 74LS595
+  ( 1 SIG2 )
+  ( 2 SIG3 )
+  ( 3 SIG4 )
+  ( 4 SIG5 )
+  ( 5 SIG6 )
+  ( 6 SIG7 )
+  ( 7 SIG8 )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 GND )
+  ( 14 ? )
+  ( 15 SIG1 )
+  ( 16 ? )
+ )
+ ( /5026F919 DIP-6__300 U2 MOC3042M
+  ( 1 N-000050 )
+  ( 2 SIG1 )
+  ( 3 ? )
+  ( 4 N-000051 )
+  ( 5 ? )
+  ( 6 N-000048 )
+ )
+ ( /5026FD5E DIP-6__300 U3 MOC3042M
+  ( 1 N-000037 )
+  ( 2 SIG2 )
+  ( 3 ? )
+  ( 4 N-000076 )
+  ( 5 ? )
+  ( 6 N-000038 )
+ )
+ ( /5026FD8A DIP-6__300 U4 MOC3042M
+  ( 1 N-000063 )
+  ( 2 SIG3 )
+  ( 3 ? )
+  ( 4 N-000039 )
+  ( 5 ? )
+  ( 6 N-000062 )
+ )
+ ( /5026FDAA DIP-6__300 U5 MOC3042M
+  ( 1 N-000070 )
+  ( 2 SIG4 )
+  ( 3 ? )
+  ( 4 N-000064 )
+  ( 5 ? )
+  ( 6 N-000069 )
+ )
+ ( /5026F964 TO220_VERT U6 BTA316X-600E
+  ( 1 N-000006 )
+  ( 2 N-000040 )
+  ( 3 N-000051 )
+ )
+ ( /5026FD5D TO220_VERT U7 BTA316X-600E
+  ( 1 N-000007 )
+  ( 2 N-000040 )
+  ( 3 N-000076 )
+ )
+ ( /5026FD89 TO220_VERT U8 BTA316X-600E
+  ( 1 N-000041 )
+  ( 2 N-000040 )
+  ( 3 N-000039 )
+ )
+ ( /5026FDA9 TO220_VERT U9 BTA316X-600E
+  ( 1 N-000065 )
+  ( 2 N-000040 )
+  ( 3 N-000064 )
+ )
+ ( /5026FE89 DIP-6__300 U14 MOC3042M
+  ( 1 N-000057 )
+  ( 2 SIG5 )
+  ( 3 ? )
+  ( 4 N-000071 )
+  ( 5 ? )
+  ( 6 N-000055 )
+ )
+ ( /5026FEB2 DIP-6__300 U15 MOC3042M
+  ( 1 N-000058 )
+  ( 2 SIG6 )
+  ( 3 ? )
+  ( 4 N-000009 )
+  ( 5 ? )
+  ( 6 N-000060 )
+ )
+ ( /5026FEC6 DIP-6__300 U16 MOC3042M
+  ( 1 N-000017 )
+  ( 2 SIG7 )
+  ( 3 ? )
+  ( 4 N-000012 )
+  ( 5 ? )
+  ( 6 N-000016 )
+ )
+ ( /5026FED7 DIP-6__300 U17 MOC3042M
+  ( 1 N-000018 )
+  ( 2 SIG8 )
+  ( 3 ? )
+  ( 4 N-000072 )
+  ( 5 ? )
+  ( 6 N-000001 )
+ )
+ ( /5026FE88 TO220_VERT U18 BTA316X-600E
+  ( 1 N-000056 )
+  ( 2 N-000040 )
+  ( 3 N-000071 )
+ )
+ ( /5026FEB3 TO220_VERT U19 BTA316X-600E
+  ( 1 N-000010 )
+  ( 2 N-000040 )
+  ( 3 N-000009 )
+ )
+ ( /5026FEC5 TO220_VERT U20 BTA316X-600E
+  ( 1 N-000074 )
+  ( 2 N-000040 )
+  ( 3 N-000012 )
+ )
+ ( /5026FED8 TO220_VERT U21 BTA316X-600E
+  ( 1 N-000075 )
+  ( 2 N-000040 )
+  ( 3 N-000072 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component P1
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P2
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P3
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P4
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P5
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P6
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P7
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P8
+ PAD_2
+ BORNIER_2*
+$endlist
+$component P9
+ PAD_2
+ BORNIER_2*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
